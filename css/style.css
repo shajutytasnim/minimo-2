@@ -1,0 +1,202 @@
+/*=================================
+       template name: minimo || html template
+       author: Tasnim  
+       version: 1.0.0
+       created: 27 january 2021
+       File Description: main css file od the template
+
+
+   
+
+
+
+=====================================*/
+
+/* ==========================
+  01.General
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+body{
+       margin: 0;
+       padding: 0;
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 24px;
+       color: #626262;
+       box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       margin: 0;
+}
+p{
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       color: #626262;
+       margin: 0;
+
+}
+a{     font-size: 14px;
+       color:#626262;
+       text-decoration: none;
+       
+
+}
+.catagories h4 {
+       font-family: 'Ubuntu', sans-serif; 
+       font-size: 14px;
+       font-weight: 300;
+       text-transform:capitalize;
+       color: #b4ad9e;
+}
+
+/*====================================
+       HEADER STYLE START HERE
+=======================================*/
+header{
+       padding: 70px 0;
+}
+.container{
+       width: 80%;
+       margin: 0 auto;
+       overflow: hidden;
+}
+.logo{
+       width: 30%;
+       float: left;
+}
+
+.logo a{
+       font-family: 'Inconsolata', monospace;
+       font-weight:400 ;
+       font-size: 30px;
+       text-transform: uppercase;
+       color: #000;
+       letter-spacing: 5px;
+
+}
+
+.menu{
+       width: 70%;
+       float: right;
+
+}
+nav ul{
+       list-style: none;
+       float: right;
+       margin: 0;
+}
+
+nav ul li {
+       float: left;
+}
+nav ul li a {
+       text-transform: uppercase;
+       padding: 0 60px;
+       color: rgb(107, 104, 104) ;
+
+}
+nav ul li:last-child a{
+       padding-right: 0;
+
+}
+nav ul li:last-child a{
+       padding-right: 0;
+}
+nav ul li a:hover{
+       color: rgb(168, 164, 164) !important;
+ }
+
+/*====================================
+       BANNER STYLE START HERE
+======================================= */
+
+.banner {
+       background-image: url(../images/banner.jpg);
+       background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+         min-height: 700px;
+
+}
+/*====================================
+       BLOG STYLE START HERE
+======================================= */
+ #blog{
+        padding: 95px 0;
+
+
+ }
+ .blog-container{
+        width: 70%;
+        margin: 0 auto;
+
+
+ }
+ .title h2 {
+        padding: 30px 0;
+
+
+ }
+ .content p {
+        padding: 35px 0 50px;
+
+ }
+ /*====================================
+       BLOG THUMBNAIL STYLE START HERE
+======================================= */
+
+#blog-thumbnail{
+       padding: 70px 0;
+}
+.blog-wrapper{
+       overflow: hidden;
+}
+.blog-left{
+       width: 45%;
+       float: left;
+}
+.blog-right{
+       width: 45%;
+       float: right;
+
+}
+.thumbnail imag{
+      /*width: 100%;*/
+
+}
+.blog-left .catagories{
+       padding: 20px 0;
+
+}
+.blog-left .title h2{
+       padding-top: 0;
+}
+.blog-left .content p{
+       padding: 0;
+       padding-bottom: 70px;
+
+}
+
+.blog-right .catagories{
+       padding: 20px 0;
+
+}
+.blog-right .title h2{
+       padding-top: 0;
+}
+.blog-right .content p{
+       padding: 0;
+       padding-bottom: 70px;
+}
